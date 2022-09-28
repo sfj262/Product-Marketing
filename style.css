@@ -1,0 +1,120 @@
+body {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    height: 50px;
+    font-size: medium;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blue;
+    color: aliceblue;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+
+.picture {
+    height: 500px;
+}
+
+section {
+    height: 300px;
+    display: flex;
+    justify-content:space-between;
+    background-color: lightgray;
+    color: black;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+    border: 50px;
+}
+
+.intro {
+    height: 500px;
+    display: flex;
+    justify-content:space-between;
+    background-color: lightgray;
+    color: black;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+    border: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration-line: underline;
+    text-decoration-color: aquamarine;
+    text-decoration-style: solid;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.launch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+    border: 50px;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    text-align: center;
+    outline-color: #585858;
+    outline-style: double;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    outline-style: double;
+}
+
+p {
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    color: black;
+}
+
+article {
+    height: 250px;
+    width: 450px;
+    padding: 20px;
+}
+
+.launch {
+    display: flex;
+    padding: 30px;
+    outline-style: double;
+}
+
+ul {
+    text-decoration-line: underline;
+    text-decoration-color: aquamarine;
+    text-decoration-style: solid;
+}
